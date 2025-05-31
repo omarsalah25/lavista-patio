@@ -14114,11 +14114,16 @@ Hotel Features Area CSS
 .hotel-features-card {
 	border-radius: 20px;
 	background-color: #ffffff;
-	padding: 70px 30px;
+	padding: 10px;
+	height: 420px !important ;
 	text-align: center;
 }
 .hotel-features-card .icon {
 	margin-bottom: 55px;
+}
+.hotel-features-card .img {
+	object-fit: cover !important;
+	border-radius: 15px !important;
 }
 .hotel-features-card h3 {
 	font-size: 20px;
@@ -16015,7 +16020,7 @@ Rental Copyright Area CSS
 
 /* Navbar Area CSS */
 .real-estate-agent-portfolio-navbar .navbar.navbar-light {
-	background-color: transparent;
+	background-color: black;
 	box-shadow: unset;
 	border-bottom: 1px solid #e3e9ed;
 	padding-top: 20px;
@@ -16039,6 +16044,8 @@ Rental Copyright Area CSS
 	position: absolute;
 	right: 0;
 	left: 0;
+	z-index: 9999;
+
 	top: 0;
 }
 .real-estate-agent-portfolio-navbar.property-navbar .navbar.is-sticky {
@@ -17234,7 +17241,7 @@ Single Property Banner Area CSS
 }
 
 .single-property-banner-content {
-	max-width: 730px;
+	max-width: 1024px;
 }
 .single-property-banner-content h1 {
 	font-size: 100px;
